@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+/*colors for this theme:
+https://color.adobe.com/Optimist-color-theme-356863/edit/?copy=true
+6C6E58  |  3E423A  |  417378  |  A4CFBE  |  F4F7D9*/
+
+
+.jumbotron {
+	background-color: #6C6E58;
+}
+
+.jumbotron {
+	alignment-baseline: central;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: #F4F7D9;
+}
+
+.nav {
+	background-color: #3E423A;
+	text-shadow:#000;
+	color: #A4CFBE;
+}
+
+.ntheme > li {
+	color: #A4CFBE;	
+}
+
+.ntheme > li > a:hover {
+    color: #3E423A;
+	background-color: #A4CFBE;
+}
+
+.ntheme > li > a:active {
+	color: black;
+	background-color: #F00;
+}
+
+body {
+	background-color: #417378;
+}
+
+.footer p {
+	alignment-baseline: central;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: #A4CFBE;
+}
