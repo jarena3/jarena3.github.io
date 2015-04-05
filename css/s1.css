@@ -7,6 +7,7 @@ https://color.adobe.com/Optimist-color-theme-356863/edit/?copy=true
 
 .jumbotron {
 	background-color: #6C6E58;
+	margin: 0px;
 }
 
 .jumbotron {
@@ -18,11 +19,10 @@ https://color.adobe.com/Optimist-color-theme-356863/edit/?copy=true
 
 .nav {
 	background-color: #3E423A;
-	text-shadow:#000;
 	color: #A4CFBE;
 }
 
-.ntheme > li {
+.ntheme > li > a {
 	color: #A4CFBE;	
 }
 
@@ -33,7 +33,12 @@ https://color.adobe.com/Optimist-color-theme-356863/edit/?copy=true
 
 .ntheme > li > a:active {
 	color: black;
-	background-color: #F00;
+	background-color: #0F0;
+}
+
+.ntheme > li > a:focus {
+	color: black;
+	background-color: #F4F7D9;
 }
 
 body {
