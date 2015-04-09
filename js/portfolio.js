@@ -1,10 +1,8 @@
 // JavaScript Document
 $(document).ready(function ( ){
-    console.log("!");
+    $('#content').load('html/about.html');
+
       $('#bbtn').on('click', function () {
-        console.log("!!!");
-        var container = document.getElementById('content');
-        console.log(container);
         $('#content').load('html/about.html');
   })
 
