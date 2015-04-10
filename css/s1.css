@@ -47,6 +47,7 @@ body {
 
 bodyArt {
     alignment-baseline: central;
+    align-self: center;
     border-radius: 5px;
 }
 
