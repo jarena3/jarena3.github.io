@@ -20,6 +20,7 @@ https://color.adobe.com/Optimist-color-theme-356863/edit/?copy=true
 .nav {
 	background-color: #3E423A;
 	color: #A4CFBE;
+    margin-bottom: 5px;
 }
 
 .ntheme > li > a {
@@ -45,10 +46,8 @@ body {
 	background-color: #417378;
 }
 
-bodyArt {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
+pageArt {
+    margin: 0 auto;
 }
 
 p {
