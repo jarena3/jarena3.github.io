@@ -47,7 +47,8 @@ body {
 }
 
 pageArt {
-    margin: 0 auto;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 p {
@@ -78,6 +79,12 @@ p {
 .projects img {
     width:100%; 
     height:auto;
-    border-radius: 5px;
+    border-radius: 5px !important;
+}
+
+.projects h1{
+ 	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: #6C6E58;
 }
 
