@@ -87,6 +87,16 @@ p {
     margin: 0 auto;
 }
 
+.resume .res-icon {
+    width:100%;
+    height:auto;
+}
+
+.resume p {
+ alignment-baseline: center;
+}
+
+
 .projects img {
     width:98%; 
     height:auto;
