@@ -4,6 +4,8 @@
 https://color.adobe.com/Optimist-color-theme-356863/edit/?copy=true
 6C6E58  |  3E423A  |  417378  |  A4CFBE  |  F4F7D9*/
 
+
+
 /*-----Container Page---------------*/
 .jumbotron {
 	background-color: #D0DED6;
@@ -21,6 +23,7 @@ https://color.adobe.com/Optimist-color-theme-356863/edit/?copy=true
 	background-color: #3E423A;
 	color: #A4CFBE;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .ntheme > li > a {
@@ -221,3 +224,79 @@ height: auto;
     }
 }
 
+/*-----Project Modals---------------*/
+    /*---Modal Blurs----------------*/
+    body.modal-open .blur-wrap{
+        -webkit-filter: blur(7px);
+        -moz-filter: blur(15px);
+        -o-filter: blur(15px);
+        -ms-filter: blur(15px);
+        filter: blur(15px);
+    }
+
+    body.modal-open .nav{
+        -webkit-filter: blur(7px);
+        -moz-filter: blur(15px);
+        -o-filter: blur(15px);
+        -ms-filter: blur(15px);
+        filter: blur(15px);
+    }
+
+    body.modal-open .jumbotron{
+        -webkit-filter: blur(7px);
+        -moz-filter: blur(15px);
+        -o-filter: blur(15px);
+        -ms-filter: blur(15px);
+        filter: blur(15px);
+    }
+
+    body.modal-open .main{
+        -webkit-filter: blur(7px);
+        -moz-filter: blur(15px);
+        -o-filter: blur(15px);
+        -ms-filter: blur(15px);
+        filter: blur(15px);
+    }
+
+    body.modal-open .footer{
+        -webkit-filter: blur(7px);
+        -moz-filter: blur(15px);
+        -o-filter: blur(15px);
+        -ms-filter: blur(15px);
+        filter: blur(15px);
+    }
+
+
+.project-modal .modal-body {
+    /*padding: 100px 0;
+    min-height: 100%;*/
+    border: 10px;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.project-modal .modal-body h2 {
+    margin: 0;
+    font-size: 3em;
+    font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+    color: #6C6E58;
+}
+
+.project-modal .modal-body img {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.project-modal .modal-body .item-details {
+    margin: 30px 0;
+}
+
+.project-modal .modal-backdrop {
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+}
