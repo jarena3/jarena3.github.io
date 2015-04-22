@@ -129,8 +129,10 @@ height: auto;
 
 .resume .tech-icon {
 	width: 10%;
-	border-radius: 25px;
+	border-radius: 100px;
 }
+
+
 
 
 /*-----Projects Page---------------*/
@@ -310,3 +312,7 @@ height: auto;
   opacity: 0.65;
   filter: alpha(opacity=65);
 }
+
+/*-----Contact Page---------------*/
+
+.contact
