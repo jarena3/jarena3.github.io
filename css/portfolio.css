@@ -127,6 +127,10 @@ height: auto;
  alignment-baseline: center;
 }
 
+.tech-icon {
+	border-radius: 25px;
+}
+
 
 /*-----Projects Page---------------*/
 
