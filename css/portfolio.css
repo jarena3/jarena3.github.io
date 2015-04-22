@@ -315,4 +315,9 @@ height: auto;
 
 /*-----Contact Page---------------*/
 
-.contact
+.contact .tech-icon 
+{
+	border-radius: 100px;
+	width: 20%;
+
+}
