@@ -114,8 +114,8 @@ height: auto;
     font-size:25px;
     opacity:0;
     filter:alpha(opacity=0)
-    font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
+    font-family: 'Quicksand', sans-serif !important;
+	font-weight: 400 !important;
 }
 
 .resume .res-icon {
@@ -136,13 +136,6 @@ height: auto;
 
 
 /*-----Projects Page---------------*/
-
-.projects img {
-    width:98%; 
-    height:auto;
-    border: 3px solid #3E423A;
-    border-radius: 10px !important;
-}
 
 #zoom {
     display:none;
