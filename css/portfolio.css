@@ -12,10 +12,10 @@ https://color.adobe.com/Optimist-color-theme-356863/edit/?copy=true
 	margin: 0px;
 }
 
-.jumbotron {
+.jumbotron  h1, .jumbotron  h2 {
 	alignment-baseline: central;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
+	font-family: 'Quicksand', sans-serif !important;
+	font-weight: 400 !important;
 	color: #6C6E58;
 }
 
@@ -130,6 +130,7 @@ height: auto;
 .resume .tech-icon {
 	width: 10%;
 	border-radius: 100px;
+	padding-bottom: 2px;
 }
 
 
@@ -311,6 +312,7 @@ height: auto;
 .contact .tech-icon 
 {
 	border-radius: 100px;
-	width: 15%;
+	width: 10%;
+	padding: 10px;
 
 }
