@@ -88,12 +88,15 @@ p {
 
 /*-----About---------------*/
 
-#about #portrait,
-#about #map {
+#about #portrait{
 width: 100%;
 height: auto;
     border-radius: 5px;
     border: 2px solid #3E423A;
+}
+
+#about #map {
+	margin: 0;
 }
 
 #about .bio {
