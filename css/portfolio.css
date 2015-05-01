@@ -147,7 +147,7 @@ height: auto;
 #project .project-item {
     right: 0;
     bottom: 0;
-    height: 162px;
+/*    height: 162px;*/
 }
 
 #project td {
@@ -211,12 +211,12 @@ height: auto;
 #project * {
     z-index: 2;
 }
-
+/*
 @media(min-width:767px) {
     #project .project-item {
         margin: 0 0 30px;
     }
-}
+}*/
 
 /*-----Project Modals---------------*/
     /*---Modal Blurs----------------*/
