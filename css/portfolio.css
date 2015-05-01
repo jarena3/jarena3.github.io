@@ -96,7 +96,8 @@ height: auto;
 }
 
 #about #map {
-	margin: 0;
+	display: block;
+	margin: auto;
 }
 
 #about .bio {
@@ -200,7 +201,7 @@ height: auto;
 }
 
 #project .project-item .project-link .caption .caption-content i {
-    margin-top: -12px;
+    margin-top: -15px;
         opacity: 50%;
 }
 
