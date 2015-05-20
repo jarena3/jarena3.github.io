@@ -265,6 +265,11 @@ height: auto;
         filter: blur(15px);
     }
 
+@media screen and (min-width: 768px) {
+    .modal-custom {
+        width: 70%; /* either % (e.g. 60%) or px (400px) */
+    }
+}
 
 .project-modal .modal-body {
     border: 10px;

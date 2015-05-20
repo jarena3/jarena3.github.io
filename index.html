@@ -1,214 +1,393 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8" name = "viewport" content = "width=device-width, initial-scale=1.0">
-<title>John Arena III</title>
-<script src = "http://code.jquery.com/jquery-latest.js"></script>    
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>John Arena III</title>
+	<!-- Favicons -->
+	<link rel="icon" href="/favicon.ico">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- JS -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="js/portfolio.js"></script>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    
-<script src="js/portfolio.js"></script>
-    
-<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
-<link href="css/portfolio.css" rel="stylesheet" type="text/css">
-    
-<!-- Favicons -->
-<link rel="icon" href="/favicon.ico">
-    
-    
-<!--[if lt IE 7]><p class=chromeframe>This site will fail to render correctly on this browser.<a href="http://browsehappy.com/">Update your browser.</a></p><![endif]-->
-    
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+	<link href="css/portfolio.css" rel="stylesheet" type="text/css">
+
+	<!--[if lt IE 7]><p class=chromeframe>This site will fail to render correctly on this browser.<a href="http://browsehappy.com/">Update your browser.</a></p><![endif]-->
 </head>
 
-
-  
 <body>
 
-<!--///--header---------------------------------------------->
-<div class="jumbotron">
-    <div="container">
-        <h1 align="center">John Arena III</h1>
-        <h2 align="center">&middot;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&middot;</h2>
-  </div>
-</div>
+	<!--///--header---------------------------------------------->
+	<div class="jumbotron">
+		<div="container">
+			<h1 align="center">John Arena III</h1>
+			<h2 align="center">&middot;&nbsp;&nbsp;Portfolio&nbsp;&nbsp;&middot;</h2>
+	</div>
+	</div>
 
-<!--///--nav------------------------------------------------->
-    <div class="nav">
-      <div class="container">
-        <ul class="nav nav-pills nav-justified ntheme">
-            <li id="aboutBTN"><a href="#"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;  about</a></li>
-            <li id="resumeBTN"><a href="#"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;  resume</a></li>
-            <li id="projectsBTN"><a href="#"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;  projects</a></li>
-            <li id="contactBTN"><a href="#"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;  contact</a></li>
-        </ul>
-      </div>
-    </div>
- 
-<!--///--body------------------------------------------------>
-    <div class="main">
-    <div class="col-md-9 col-centered">
-        <div id="content">
-            <p align="center"><br>Loading...</p>
-        </div>
-    </div>
-    </div>
-<!--///--footer---------------------------------------------->
-        <div id="blur">
-<div class="footer">
-<p align = "center">&copy; 2015 John Arena III</p>
-</div>
-    </div>
+	<!--///--nav------------------------------------------------->
+	<div class="nav">
+		<div class="container">
+			<ul class="nav nav-pills nav-justified ntheme">
+				<li id="aboutBTN"><a href="#"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;  about</a></li>
+				<li id="resumeBTN"><a href="#"><span class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;  resume</a></li>
+				<li id="projectsBTN"><a href="#"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;  projects</a></li>
+				<li id="contactBTN"><a href="#"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;  contact</a></li>
+			</ul>
+		</div>
+	</div>
 
+	<!--///--body------------------------------------------------>
+	<div class="main">
+		<div class="col-md-9 col-centered">
+			<div id="content">
+				<p align="center">
+					<br>Loading...</p>
+			</div>
+		</div>
+	</div>
+	<!--///--footer---------------------------------------------->
+	<div id="blur">
+		<div class="footer">
+			<p align="center">&copy; 2015 John Arena III</p>
+		</div>
+	</div>
 
 </body>
-    
+
 </html>
 
+<!-- Project Modals -->
+<!-- Software Development Modals -->
+<div class=modal-item>
+	<div class="project-modal modal fade" id="blastronautsModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
 
-   <!-- Project Modals -->
-<div class = modal-item>
-    <div class="project-modal modal fade" id="blastronautsModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Blastronauts</h2>
-                            <hr>
-                            <img src="img/portrait.png" alt="">
-							<p>						
-							Blastronauts is a competitive multiplayer game, written in C# under the Unity3D framework. <br>
-							Access to the source code is available upon request. 
-							The demo is available here:
-							</p>
-							<a href=# class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Blastronauts Demo	</a>
-							<br><br>
-                            <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>Blastronauts</h2>
+					<hr>
+					<img src="img/blastronauts/01.png" alt="">
+					<p>
+						Blastronauts is a competitive multiplayer game, written in C# under the Unity3D framework.
+						<br> Access to the source code is available upon request. The demo will be available soon.
+					</p>
+					<a href=# class="btn btn-default btn-lg btn-block disabled" role="button"> <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span> Blastronauts Demo </a>
+					<br>
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div class = modal-item>
-    <div class="project-modal modal fade" id="JLSHUModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+<div class=modal-item>
+	<div class="project-modal modal fade" id="JLSHUModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
 
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>JLS Scheduling Utility</h2>
-                            <hr>
-                            <img src="img/portrait.png" alt="">
-							<p>						
-							While employed at JLS English Academy, I independently designed and built a Windows utility with the goal of reducing the beginning-of-semester workload for myself, my co-workers, and the teaching staff at other branches.<br>
-							This tool automates a great deal of the repetitive work of creating and organizing classwork tracking documents, as well as student handouts. It parses .XLS files from the internal company database to build student lists, takes class information and homework schedules as input, and then constructs printable files (.DOCX, .PDF, and a few others) for use in the classroom and for distribution to co-teachers, administration staff, and students’ parents.<br> 
-							The utility was designed to be flexible and extensible, so that future teachers can continue to use it as a resource.<br><br>
-							The JLS Homework Utility is a WinForms front end that stores and retrieves data as JSON. It also uses Cathal Coffey's DOCX library to write to .DOCX files, and LinqToExcel to pull student information from JLS' proprietary database.
-							<br><br>
-							The program’s source, executables, and documentation can be found here:<br>
-							</p>
-							<a href="http://jarena3.github.io/JLSScheduler/" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> JLS Homework Utility Page</a>
-							<br><br>
-                            <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>JLS Scheduling Utility</h2>
+					<hr>
+					<img src="img/projects/jlssuForm.png" alt="">
+					<p>
+						While employed at JLS English Academy, I independently designed and built a Windows utility with the goal of reducing the beginning-of-semester workload for myself, my co-workers, and the teaching staff at other branches.
+						<br> This tool automates a great deal of the repetitive work of creating and organizing classwork tracking documents, as well as student handouts. It parses .XLS files from the internal company database to build student lists, takes class information and homework schedules as input, and then constructs printable files (.DOCX, .PDF, and a few others) for use in the classroom and for distribution to co-teachers, administration staff, and students’ parents.
+						<br> The utility was designed to be flexible and extensible, so that future teachers can continue to use it as a resource.
+						<br>
+						<br> The JLS Homework Utility is a WinForms front end that stores and retrieves data as JSON. It also uses Cathal Coffey's DOCX library to write to .DOCX files, and LinqToExcel to pull student information from JLS' proprietary database.
+						<br>
+						<br> The program’s source, executables, and documentation can be found here:
+						<br>
+					</p>
+					<a href="http://jarena3.github.io/JLSScheduler/" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> JLS Homework Utility Page</a>
+					<br>
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div class = modal-item>
-    <div class="project-modal modal fade" id="trixelatorModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+<div class=modal-item>
+	<div class="project-modal modal fade" id="trixelatorModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
 
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Trixelator</h2>
-                            <hr>
-                            <img src="img/portrait.png" alt="">
-							<p>						
-							Trixelator is a simple image manipulator written in JavaScript and jQuery<br>
-							
-							</p>
-							<a href="http://jarena3.github.io/trixelator" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Trixelator</a>
-							<br>
-							
-							</p>
-							<a href="" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Trixelator Github Repository</a>
-							
-							<br><br>
-                            <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>Trixelator</h2>
+					<hr>
+					<img src="img/projects/mlisa.png" alt="">
+					<p>
+						Trixelator is a simple HTML5 Canvas image manipulator written in JavaScript and jQuery with Bootstrap.<br>
+						Currently, Trixelator supports two primary manipulation modes: Square and Hexagonal cell divisions.<br>
+						In square mode, the program divides an image into an array of cells based on the cell size slider. It then calculates the corner and center points for each cell and plots the appropriate triangles between them, based on the options the user has chosen. The triangles are then filled with the color of the pixel at the triangle's centroid (although this can be an average sample if the option is selected). At this point, if the user has chosen to do so, the triangles are overlaid with a simple noise pattern, to give some additional texture to the output image.<br>
+						Hexagonal mode uses essentially the same process, but with additional points. The point coordinates are calculated differently for horizontal and vertical hexagonal arrays. The cell sizes are also scaled up slightly, to remain similar in size to square cells, for a more consistent user experience.<br>
+						<br>
+						This project took about a week from design to completion, and as such I'm pretty proud of what it can accomplish. I do plan on working on it again in the near future, and I would like to address the following:
+						<li>From the beginning, I planned on including a voronoi cell generation algorithm, but did not schedule enough time to implement it. This feature is the primary goal for a future expansion of the project.</li>
+						<li>File saving is currently done through canvas-to-DataURL, which is quick but chokes on larger files (especially .PNGs). Output should be broken into blobs and written to files, which will take longer but eliminate filesave crashing, especially on slower machines</li>
+						<li>The actual image manipulation processes are not well-optimize and are slower than I'd like. There is a lot of room for improvement, and should be a main goal of future development.</li>
+						<br>
+						<br>
+						The Trixelator app, as well as its source, can be found here:
+
+					</p>
+					<a href="http://jarena3.github.io/trixelator" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Trixelator</a>
+					<br>
+
+					</p>
+					<a href="" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Trixelator Github Repository</a>
+
+					<br>
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
+<div class=modal-item>
+	<div class="project-modal modal fade" id="diabolicModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
 
-   <!-- Misc Modals -->
-<div class = modal-item>
-    <div class="project-modal modal fade" id="TWTModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>Diabolic</h2>
+					<hr>
+					<img src="img/diabolic/01.png" alt="">
+					<p>
+						Diabolic is a procedural generation and weighted selection API written in C# and being developed for the Unity framework. <br>
+						Diabolic parses user-created data files and uses them to procedurally generate RPG-style items. It is designed to support all of the item behaviors and mechanics commonly found in modern RPG/ARPG games (including affixes and sockets). It is also intended to be extremely flexible and extensible. Diabolic employs the Decorator and Factory design patterns, which allows users to mix and match item functionality without needing to write subclasses, or even understand the internal mechanics of the rest of the system, and remain confident that their additions will <i>just work</i> with the rest of the system. <br>
+						Additionally, Diabolic employs weighted selection to select items for generation, based on user-defined weights. A user can select from a number of selection algorithms, each featuring a unique "sweetener" mechanic to skew selections based on a bonus parameter ("magic find", in the genre). These algorithms are customizable, and can be further manipulated at runtime.<br>
+						
+						<br> The source code can be found at the repository here:
+					</p>
+					<a href="https://github.com/jarena3/diabolic" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Diabolic</a>
+					<br>
+					<p>A proof-of-concept demo can be found here:</p>
+					<a href=# class="btn btn-default btn-lg btn-block disabled" role="button"> <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span> Diabolic Demo </a>
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Featured Publications</h2>
-                            <hr>
-							<table class="table table-striped"style="width:100%">
-							  <tr>
-								<th>Client</th>
-								<th>Publication</th>
-							  </tr>
-							  <tr>
-								<td><a href="http://www.kcisa.kr">Korea Culture Information Service Agency (KCISA)</a></td>
-								<td>Recommendation for the United Nations Sustainable Development Award (Seoul Metropolitan Government)</td> 
-							  </tr>
-							  <tr>
-								<td><a href="http://www.kapa21.or.kr">The Korean Association of Public Administration (KAPA)</a></td>
-								<td>Recommendation for the United Nations Public Service Award (Seoul Metropolitan Government)</td> 
-							  </tr>
-							  <tr>
-								<td><a href="http://english.seoul.go.kr/">Seoul Metropolitan Government</a></td>
-								<td>Seoul Metropolitan Government Ordinance Regarding the Maintenance and Improvement of Urban Areas and Dwelling Conditions (Seoul Ordinance No. 5237) - English Copy</td> 
-							  </tr>
-							  <tr>
-								<td><a href="http://english.seoul.go.kr/">Seoul Metropolitan Government</a></td>
-								<td>Seoul Ordinance No. 5237 Press Release, published in the English-language editions of major Korean newspapers, including 
-								<a href="http://english.khan.co.kr/">The Korea Economic Daily (Kyunghyang Shinmun)</a>, 
-								<a href="http://www.hankooki.com/">The Korea Times (Hankook Ilbo)</a>, and  
+<div class=modal-item>
+	<div class="project-modal modal fade" id="imgruberModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
+
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>Imgruber</h2>
+					<hr>
+					<img src="img/projects/imgruberLarge.png" alt="">
+					<p>
+						Imgruber is my attempt to get my screenshot-to-forum-post pipeline as short as possible. 
+						It's a taskbar application that listens for a user-defined hotkey, at which point it opens an invisible form and allows the user to define a rectangular selection. That selection is then saved as an image and immediately uploaded to Imgur.com using the Imgur API. The URL of the uploaded image is then pushed directly to the clipboard, in the format of the user's choosing. The selectable formats follow the types that Imgur provides, allowing the user to paste a string appropriate to a forum, StackExchange question, E-mail, messenger app, etc.<br>
+						Pipeline performance using Imgruber -- taking, cropping, uploading and pasting the link to a screenshot hosted on Imgur:
+						<br>
+						<table class="table table-striped" style="width:100%">
+						  <tr>
+							<th><i><small>(in seconds)</i></small></th>
+							<th>Attempt 1</th>
+							<th>Attempt 2</th>
+							<th>Attempt 3</th>
+							<th>Average</th>
+						  </tr>
+						  <tr>
+							<td>Normally</td>
+							<td>74.38</td>
+							<td>66.49</td>
+							<td>82.33</td>
+							<td>74.40</td>
+						  </tr>
+						  <tr>
+							<td>Using Imgruber</td>
+							<td>5.06</td>
+							<td>6.22</td>
+							<td>5.19</td>
+							<td>5.49</td>
+						  </tr>
+						</table>
+						<br>
+						Imgruber shortened my total pipeline by almost 1:10 — it's about 737% faster. Not bad!
+						<br>
+						Imgur will also tweet for you (in a sense). It does not use the twitter API, but can pop up a default browser window with the imgur URL and a user-defined automatic message preloaded into a "tweet this" form.
+						<br>
+
+						<br> Source, executable, and documents can be found here:
+					</p>
+					<a href="http://jarena3.github.io/imgruber/" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Imgruber</a>
+					<br>
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class=modal-item>
+	<div class="project-modal modal fade" id="dungeonsincModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
+
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>Dungeons INC.</h2>
+					<hr>
+					<img src="img/dinc.png" alt="">
+					<p>
+						Dungeons INC. is an upcoming game project that is currently only in the design phase. It relies heavily on procedural generation to produce detailed, history-filled worlds that players can then interact with through a tycoon/roguelike RPG style game.
+						<br>
+						More information will be available once project development proceeds.
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class=modal-item>
+	<div class="project-modal modal fade" id="dogpetterModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
+
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>Super Dog Petter</h2>
+					<hr>
+					<img src="img/dogpetter.png" alt="">
+					<p>
+						Super Dog Petter was my first game project, and first foray into C# and Unity. It's currently undergoing a serious revision. When it's in a playable state (again), I'll post the source and Play store links here. In the meantime, samples of the pixel art are available from the Projects link.
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class=modal-item>
+	<div class="project-modal modal fade" id="jotModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
+
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>Jot Repository</h2>
+					<hr>
+					<p>
+						Jot is a repository for my coding experiments, practice lessons, naive implementations, esolang sketches, and contest/project code. I intend to use it to track my progress as a developer.
+					</p>
+					<a href="https://github.com/jarena3/jot" class="btn btn-success btn-lg btn-block" role="button"> <span class="glyphicon glyphicon-link" aria-hidden="true"></span> Jot Repository </a>
+					<br>
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class=modal-item>
+	<div class="project-modal modal fade" id="spacegameModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
+
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>????</h2>
+					<hr>
+					<img src="img/empty.png" alt="">
+					<p>
+						This is an as-of-yet untitled C#/Unity project still in the conceptual development stage. 
+						<br>
+						More information will be available once project development proceeds.
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Web Development Modals -->
+
+<!-- Art Modals -->
+
+<!-- Misc Modals -->
+<div class=modal-item>
+	<div class="project-modal modal fade" id="TWTModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-custom">
+
+			<div class="col-lg-12">
+				<div class="modal-body">
+					<h2>Featured Publications</h2>
+					<hr>
+					<table class="table table-striped" style="width:100%">
+						<tr>
+							<th>Client</th>
+							<th>Publication</th>
+						</tr>
+						<tr>
+							<td><a href="http://www.kcisa.kr">Korea Culture Information Service Agency (KCISA)</a></td>
+							<td>Recommendation for the United Nations Sustainable Development Award (Seoul Metropolitan Government)</td>
+						</tr>
+						<tr>
+							<td><a href="http://www.kapa21.or.kr">The Korean Association of Public Administration (KAPA)</a></td>
+							<td>Recommendation for the United Nations Public Service Award (Seoul Metropolitan Government)</td>
+						</tr>
+						<tr>
+							<td><a href="http://english.seoul.go.kr/">Seoul Metropolitan Government</a></td>
+							<td>Seoul Metropolitan Government Ordinance Regarding the Maintenance and Improvement of Urban Areas and Dwelling Conditions (Seoul Ordinance No. 5237) - English Copy</td>
+						</tr>
+						<tr>
+							<td><a href="http://english.seoul.go.kr/">Seoul Metropolitan Government</a></td>
+							<td>Seoul Ordinance No. 5237 Press Release, published in the English-language editions of major Korean newspapers, including
+								<a href="http://english.khan.co.kr/">The Korea Economic Daily (Kyunghyang Shinmun)</a>,
+								<a href="http://www.hankooki.com/">The Korea Times (Hankook Ilbo)</a>, and
 								<a href="http://www.koreaherald.com/">The Korea Herald</a>.
-								</td> 
-							  </tr>
-							  <tr>
-								<td><a href="http://seoulcitizenshall.kr/nr/?r=eng">Seoul Citizens' Hall</a></td>
-								<td>Policy Workshop publications and press releases</td> 
-							  </tr>
-							  <tr>
-								<td><a href="http://english.mw.go.kr/front_eng/index.jsp">The Korean Ministry of Health and Welfare</a></td>
-								<td>"Seoul Metropolitan's Women's Safety Programs" Press package and press releases. 
-								</td> 
-							  <tr>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="http://seoulcitizenshall.kr/nr/?r=eng">Seoul Citizens' Hall</a></td>
+							<td>Policy Workshop publications and press releases</td>
+						</tr>
+						<tr>
+							<td><a href="http://english.mw.go.kr/front_eng/index.jsp">The Korean Ministry of Health and Welfare</a></td>
+							<td>"Seoul Metropolitan's Women's Safety Programs" Press package and press releases.
+							</td>
+							<tr>
 								<td><a href="https://www.kdevelopedia.org/">Korean Development Institute</a></td>
-								<td>English releases of the abstracts for 195 government-sponsored policy studies and evaluations for the Korean Development Institute's K-Developedia initiative</td> 
-							  </tr>
-							  <tr>
+								<td>English releases of the abstracts for 195 government-sponsored policy studies and evaluations for the Korean Development Institute's K-Developedia initiative</td>
+							</tr>
+							<tr>
 								<td><a href="http://eng.korass.or.kr/">Korea Railway Association</a></td>
-								<td>Press releases for Q4 2014</td> 
-							  </tr>
-							  <tr>
+								<td>Press releases for Q4 2014</td>
+							</tr>
+							<tr>
 								<td><a href="http://www.koica.go.kr/english/main.html">Korea International Cooperation Agency (KOICA)</a></td>
-								<td>Myanmar Roadway Development Operation Plan</td> 
-							  </tr>
-								
-							  </tr>
-							</table>
+								<td>Myanmar Roadway Development Operation Plan</td>
+							</tr>
 
-							<br><br>
-                            <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+						</tr>
+					</table>
+
+					<br>
+					<br>
+					<button type="button" class="btn btn-primary btn-lg" data-dismiss="modal"> <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
