@@ -148,6 +148,7 @@ a.dotted-link:hover {
 }
 
 .profile-info {
+  text-align: left;
   font-family: "Raleway";
   margin-top: 50px;
   font-size: 18px;
@@ -222,6 +223,10 @@ a.dotted-link:hover {
 .experience h2
 {
   color: #674172;
+}
+
+.btn{
+  margin: 5px;
 }
 
 footer {
