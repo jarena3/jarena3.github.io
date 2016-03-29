@@ -173,6 +173,13 @@ a.dotted-link:hover {
   border-radius: 5pt;
 }
 
+.rating
+{
+  color: #f1c40f;
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
 .about
 {
   border-radius: 5pt;
