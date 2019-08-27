@@ -1,5 +1,8 @@
-/_old
-/trixelator
-/selectionator
-/_site
-/_raws
+.vscode/
+node_modules/
+ehthumbs.db
+Thumbs.db
+*.log
+*.der
+*.key
+*.pem
